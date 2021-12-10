@@ -4,6 +4,7 @@ class Review (db.Model):
     userId = db.Column(db.ForeignKey('user.id'), primary_key=True)
     bookId = db.Column(db.ForeignKey('book.id'), primary_key=True)
     userRating = db.Column(db.Integer)
+    isReading = db.Column(db.Boolean)
     startReading = db.Column(db.DateTime)
     finishReading = db.Column(db.DateTime)
     review = db.Column(db.String(500))
@@ -28,7 +29,7 @@ class Book (db.Model):
     title = db.Column(db.String(250), index=True)
     author = db.Column(db.String(250), index=True)
     image = db.Column(db.String(250))
-    avgRating = db.Column(db.Integer)
+    avgRating = db.Column(db.Float)
     users = db.relationship('Review', back_populates='book')
 
     def __repr__(self):

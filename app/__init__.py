@@ -14,7 +14,7 @@ Bootstrap(app)
 csrf = CSRFProtect(app)
 
 db = SQLAlchemy(app)
-migrate = Migrate(app, db)
+migrate = Migrate(app, db, compare_type=True)
 
 
 
