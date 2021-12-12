@@ -1,12 +1,28 @@
-{% extends "bootstrap/base.html" %}
-
-{% block styles %}
-  {{super()}}
-  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='fontawesome-free-5.15.4-web/css/all.css') }}">
-{% endblock %}
-
-{% block scripts %}
-  <script type="text/javascript" src="{{ url_for('static', filename='jquery.min.js') }}" ></script>
-
-  {{super()}}
+{% extends "base.html" %}
+{% block content %}
+  {% if books %}
+    {% for book, stars in books.items() %}
+    <div class="col-2">
+      <img src="{{ book.image }}" alt='No image available'>
+    </div>
+    <div class="col-4">
+      <h2>{{ book.title }}</h2>
+      <h4>Author: {{ book.author }}</h4>
+      {% for i in range(stars[0]) %}
+        <i class="fas fa-star rated" id='{{ i + 1 }}'></i>
+      {% endfor %}
+      {% for i in range(stars[1]) %}
+        <i class="fas fa-star unrated" id='{{ stars[0] + i + 1 }}'></i>
+      {% endfor %}
+      <span id="arating">{{ book.avgRating }}</span>
+      <br />
+      <h4>Description</h4>
+      <p>{{ book.description }}</p>
+      <p>Check the <a href='/book/{{ book.id }}/reviews'>reviews</a></p>
+    </div>
+    <div class="w-100"></div>
+    {% endfor %}
+  {% else %}
+    <h2>There are no books currently available</h2>
+  {% endif %}
 {% endblock %}

@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="col-3">
+</div>
+<div class="col-6">
+  <br />
+  <h1>Review this book</h1>
+  <br />
+  <form method="post" name="login">
+    {{ review_form.hidden_tag() }}
+    {{ review_form.userRating.label(class_='form-label') }}
+    {{ review_form.userRating(class_='form-control') }}<br>
+    <p>
+       {% for error in review_form.userRating.errors %}
+        <span style="color: red;">{{ error }}</span>
+       {% endfor %}
+    </p>
+    {{ review_form.isFinished.label(class_='form-label') }}
+    {{ review_form.isFinished(class_='form-control') }}<br>
+    <p>
+       {% for error in review_form.isFinished.errors %}
+        <span style="color: red;">{{ error }}</span>
+       {% endfor %}
+    </p>
+    {{ review_form.startDate.label(class_='form-label') }}
+    {{ review_form.startDate(class_='form-control') }}<br>
+    <p>
+       {% for error in review_form.startDate.errors %}
+        <span style="color: red;">{{ error }}</span>
+       {% endfor %}
+    </p>
+    {{ review_form.finishDate.label(class_='form-label') }}
+    {{ review_form.finishDate(class_='form-control') }}<br>
+    <p>
+       {% for error in review_form.finishDate.errors %}
+        <span style="color: red;">{{ error }}</span>
+       {% endfor %}
+    </p>
+    {{ review_form.review.label(class_='form-label') }}
+    {{ review_form.review(class_='form-control') }}<br>
+    <p>
+       {% for error in review_form.review.errors %}
+        <span style="color: red;">{{ error }}</span>
+       {% endfor %}
+    </p>
+    <p><input type="submit" class="btn btn-primary" value="Submit"></p>
+</div>
+<div class="col-3">
+</div>
+{% endblock %}

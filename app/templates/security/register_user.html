@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="col-3">
+</div>
+<div class="col-6">
+  <br />
+  <h1>Create an account</h1>
+  <br />
+  <form method="post" name="login">
+    {{ register_user_form.hidden_tag() }}
+    {{ register_user_form.email.label(class_='form-label') }}
+    {{ register_user_form.email(class_='form-control') }}<br>
+    <p>
+       {% for error in register_user_form.email.errors %}
+        <span style="color: red;">{{ error }}</span>
+       {% endfor %}
+    </p>
+    {{ register_user_form.username.label(class_='form-label') }}
+    {{ register_user_form.username(class_='form-control') }}<br>
+    <p>
+       {% for error in register_user_form.username.errors %}
+        <span style="color: red;">{{ error }}</span>
+       {% endfor %}
+    </p>
+
+    {{ register_user_form.password.label(class_='form-label') }}
+    {{ register_user_form.password(class_='form-control') }}<br>
+    <p>
+       {% for error in register_user_form.password.errors %}
+        <span style="color: red;">{{ error }}</span>
+       {% endfor %}
+    </p>
+
+    {{ register_user_form.password_confirm.label(class_='form-label') }}
+    {{ register_user_form.password_confirm(class_='form-control') }}<br>
+    <p>
+       {% for error in register_user_form.password_confirm.errors %}
+        <span style="color: red;">{{ error }}</span>
+       {% endfor %}
+    </p>
+    <p><input id="submit" type="submit" class="btn btn-primary" value="Register"></p>
+</div>
+<div class="col-3">
+</div>
+{% endblock %}

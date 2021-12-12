@@ -1,5 +1,18 @@
 from app import db
-from flask_security import UserMixin, RoleMixin
+from flask_security import UserMixin, RoleMixin, current_user
+from flask_admin.contrib.sqla import ModelView
+from flask import redirect, url_for
+
+class UserModelView(ModelView):
+  def is_accessible(self):
+    return (current_user.is_active and
+            current_user.is_authenticated and
+            current_user.has_role('Admin'))
+
+  def _handle_view(self, name):
+    if not self.is_accessible():
+      return redirect(url_for('security.login'))
+
 
 class RolesUsers(db.Model):
     __tablename__ = 'roles_users'
@@ -32,7 +45,6 @@ class User (db.Model, UserMixin):
     email = db.Column(db.String(250), unique=True)
     username = db.Column(db.String(250), index=True)
     password = db.Column(db.String(250))
-    booksRead = db.Column(db.Integer)
     active = db.Column(db.Boolean)
     books = db.relationship('Review', back_populates='user')
     roles = db.relationship('Role', secondary='roles_users',
@@ -46,6 +58,7 @@ class Book (db.Model):
     title = db.Column(db.String(250), index=True)
     author = db.Column(db.String(250), index=True)
     image = db.Column(db.String(250))
+    description = db.Column(db.String(500))
     avgRating = db.Column(db.Float)
     users = db.relationship('Review', back_populates='book')
 
