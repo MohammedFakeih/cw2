@@ -1,10 +1,23 @@
 from app import db
+from flask_security import UserMixin, RoleMixin
+
+class RolesUsers(db.Model):
+    __tablename__ = 'roles_users'
+    id = db.Column(db.Integer, primary_key=True)
+    user_id = db.Column('user_id', db.Integer, db.ForeignKey('user.id'))
+    role_id = db.Column('role_id', db.Integer, db.ForeignKey('role.id'))
+
+class Role(db.Model, RoleMixin):
+    __tablename__ = 'role'
+    id = db.Column(db.Integer, primary_key=True)
+    name = db.Column(db.String(80), unique=True)
+    description = db.Column(db.String(255))
 
 class Review (db.Model):
     userId = db.Column(db.ForeignKey('user.id'), primary_key=True)
     bookId = db.Column(db.ForeignKey('book.id'), primary_key=True)
     userRating = db.Column(db.Integer)
-    isReading = db.Column(db.Boolean)
+    isFinished = db.Column(db.Boolean)
     startReading = db.Column(db.DateTime)
     finishReading = db.Column(db.DateTime)
     review = db.Column(db.String(500))
@@ -14,12 +27,16 @@ class Review (db.Model):
     def __repr__(self):
         return self.userId + ' ' + self.bookId
 
-class User (db.Model):
+class User (db.Model, UserMixin):
     id = db.Column(db.Integer, primary_key=True)
-    username = db.Column(db.String(250), index=True, unique=True)
+    email = db.Column(db.String(250), unique=True)
+    username = db.Column(db.String(250), index=True)
     password = db.Column(db.String(250))
     booksRead = db.Column(db.Integer)
+    active = db.Column(db.Boolean)
     books = db.relationship('Review', back_populates='user')
+    roles = db.relationship('Role', secondary='roles_users',
+                         backref='users', lazy='dynamic')
 
     def __repr__(self):
         return self.username

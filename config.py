@@ -2,6 +2,7 @@ import os
 
 WTF_CSRF_ENABLED = True
 SECRET_KEY = os.urandom(32)
+SECURITY_PASSWORD_SALT = os.urandom(32)
 
 #if deployed keep session_cookie_secure as True
 SESSION_COOKIE_SECURE = True

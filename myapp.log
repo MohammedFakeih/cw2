@@ -1,0 +1,271 @@
+[2021-12-10 06:32:58,041]DEBUG:registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2021-12-10 06:32:58,043]DEBUG:registered 'des_crypt' handler: <class 'passlib.handlers.des_crypt.des_crypt'>
+[2021-12-10 06:32:58,044]DEBUG:registered 'pbkdf2_sha256' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha256'>
+[2021-12-10 06:32:58,044]DEBUG:registered 'pbkdf2_sha512' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha512'>
+[2021-12-10 06:32:58,044]DEBUG:registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+[2021-12-10 06:32:58,044]DEBUG:registered 'sha512_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha512_crypt'>
+[2021-12-10 06:32:58,044]DEBUG:registered 'plaintext' handler: <class 'passlib.handlers.misc.plaintext'>
+[2021-12-10 06:32:58,045]DEBUG:registered 'hex_md5' handler: <class 'passlib.handlers.digests.hex_md5'>
+[2021-12-10 06:38:54,862]DEBUG:registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2021-12-10 06:38:54,864]DEBUG:registered 'des_crypt' handler: <class 'passlib.handlers.des_crypt.des_crypt'>
+[2021-12-10 06:38:54,865]DEBUG:registered 'pbkdf2_sha256' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha256'>
+[2021-12-10 06:38:54,865]DEBUG:registered 'pbkdf2_sha512' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha512'>
+[2021-12-10 06:38:54,865]DEBUG:registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+[2021-12-10 06:38:54,865]DEBUG:registered 'sha512_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha512_crypt'>
+[2021-12-10 06:38:54,866]DEBUG:registered 'plaintext' handler: <class 'passlib.handlers.misc.plaintext'>
+[2021-12-10 06:38:54,866]DEBUG:registered 'hex_md5' handler: <class 'passlib.handlers.digests.hex_md5'>
+[2021-12-10 06:42:52,953]DEBUG:registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2021-12-10 06:42:52,955]DEBUG:registered 'des_crypt' handler: <class 'passlib.handlers.des_crypt.des_crypt'>
+[2021-12-10 06:42:52,956]DEBUG:registered 'pbkdf2_sha256' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha256'>
+[2021-12-10 06:42:52,956]DEBUG:registered 'pbkdf2_sha512' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha512'>
+[2021-12-10 06:42:52,956]DEBUG:registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+[2021-12-10 06:42:52,956]DEBUG:registered 'sha512_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha512_crypt'>
+[2021-12-10 06:42:52,956]DEBUG:registered 'plaintext' handler: <class 'passlib.handlers.misc.plaintext'>
+[2021-12-10 06:42:52,957]DEBUG:registered 'hex_md5' handler: <class 'passlib.handlers.digests.hex_md5'>
+[2021-12-10 06:42:57,113]DEBUG:registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2021-12-10 06:42:57,115]DEBUG:registered 'des_crypt' handler: <class 'passlib.handlers.des_crypt.des_crypt'>
+[2021-12-10 06:42:57,116]DEBUG:registered 'pbkdf2_sha256' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha256'>
+[2021-12-10 06:42:57,116]DEBUG:registered 'pbkdf2_sha512' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha512'>
+[2021-12-10 06:42:57,116]DEBUG:registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+[2021-12-10 06:42:57,116]DEBUG:registered 'sha512_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha512_crypt'>
+[2021-12-10 06:42:57,117]DEBUG:registered 'plaintext' handler: <class 'passlib.handlers.misc.plaintext'>
+[2021-12-10 06:42:57,118]DEBUG:registered 'hex_md5' handler: <class 'passlib.handlers.digests.hex_md5'>
+[2021-12-10 06:43:01,202]DEBUG:registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2021-12-10 06:43:01,205]DEBUG:registered 'des_crypt' handler: <class 'passlib.handlers.des_crypt.des_crypt'>
+[2021-12-10 06:43:01,205]DEBUG:registered 'pbkdf2_sha256' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha256'>
+[2021-12-10 06:43:01,205]DEBUG:registered 'pbkdf2_sha512' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha512'>
+[2021-12-10 06:43:01,205]DEBUG:registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+[2021-12-10 06:43:01,205]DEBUG:registered 'sha512_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha512_crypt'>
+[2021-12-10 06:43:01,206]DEBUG:registered 'plaintext' handler: <class 'passlib.handlers.misc.plaintext'>
+[2021-12-10 06:43:01,207]DEBUG:registered 'hex_md5' handler: <class 'passlib.handlers.digests.hex_md5'>
+[2021-12-10 06:43:09,421]DEBUG:registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2021-12-10 06:43:09,423]DEBUG:registered 'des_crypt' handler: <class 'passlib.handlers.des_crypt.des_crypt'>
+[2021-12-10 06:43:09,424]DEBUG:registered 'pbkdf2_sha256' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha256'>
+[2021-12-10 06:43:09,424]DEBUG:registered 'pbkdf2_sha512' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha512'>
+[2021-12-10 06:43:09,424]DEBUG:registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+[2021-12-10 06:43:09,424]DEBUG:registered 'sha512_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha512_crypt'>
+[2021-12-10 06:43:09,424]DEBUG:registered 'plaintext' handler: <class 'passlib.handlers.misc.plaintext'>
+[2021-12-10 06:43:09,426]DEBUG:registered 'hex_md5' handler: <class 'passlib.handlers.digests.hex_md5'>
+[2021-12-10 06:43:15,652]DEBUG:registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2021-12-10 06:43:15,654]DEBUG:registered 'des_crypt' handler: <class 'passlib.handlers.des_crypt.des_crypt'>
+[2021-12-10 06:43:15,655]DEBUG:registered 'pbkdf2_sha256' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha256'>
+[2021-12-10 06:43:15,655]DEBUG:registered 'pbkdf2_sha512' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha512'>
+[2021-12-10 06:43:15,655]DEBUG:registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+[2021-12-10 06:43:15,655]DEBUG:registered 'sha512_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha512_crypt'>
+[2021-12-10 06:43:15,655]DEBUG:registered 'plaintext' handler: <class 'passlib.handlers.misc.plaintext'>
+[2021-12-10 06:43:15,656]DEBUG:registered 'hex_md5' handler: <class 'passlib.handlers.digests.hex_md5'>
+[2021-12-10 06:43:18,464]DEBUG:registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2021-12-10 06:43:18,466]DEBUG:registered 'des_crypt' handler: <class 'passlib.handlers.des_crypt.des_crypt'>
+[2021-12-10 06:43:18,467]DEBUG:registered 'pbkdf2_sha256' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha256'>
+[2021-12-10 06:43:18,467]DEBUG:registered 'pbkdf2_sha512' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha512'>
+[2021-12-10 06:43:18,467]DEBUG:registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+[2021-12-10 06:43:18,467]DEBUG:registered 'sha512_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha512_crypt'>
+[2021-12-10 06:43:18,467]DEBUG:registered 'plaintext' handler: <class 'passlib.handlers.misc.plaintext'>
+[2021-12-10 06:43:18,468]DEBUG:registered 'hex_md5' handler: <class 'passlib.handlers.digests.hex_md5'>
+[2021-12-10 06:43:20,416]DEBUG:registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2021-12-10 06:43:20,418]DEBUG:registered 'des_crypt' handler: <class 'passlib.handlers.des_crypt.des_crypt'>
+[2021-12-10 06:43:20,419]DEBUG:registered 'pbkdf2_sha256' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha256'>
+[2021-12-10 06:43:20,419]DEBUG:registered 'pbkdf2_sha512' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha512'>
+[2021-12-10 06:43:20,419]DEBUG:registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+[2021-12-10 06:43:20,419]DEBUG:registered 'sha512_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha512_crypt'>
+[2021-12-10 06:43:20,419]DEBUG:registered 'plaintext' handler: <class 'passlib.handlers.misc.plaintext'>
+[2021-12-10 06:43:20,420]DEBUG:registered 'hex_md5' handler: <class 'passlib.handlers.digests.hex_md5'>
+[2021-12-10 06:43:32,120]DEBUG:registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2021-12-10 06:43:32,122]DEBUG:registered 'des_crypt' handler: <class 'passlib.handlers.des_crypt.des_crypt'>
+[2021-12-10 06:43:32,123]DEBUG:registered 'pbkdf2_sha256' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha256'>
+[2021-12-10 06:43:32,123]DEBUG:registered 'pbkdf2_sha512' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha512'>
+[2021-12-10 06:43:32,123]DEBUG:registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+[2021-12-10 06:43:32,123]DEBUG:registered 'sha512_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha512_crypt'>
+[2021-12-10 06:43:32,123]DEBUG:registered 'plaintext' handler: <class 'passlib.handlers.misc.plaintext'>
+[2021-12-10 06:43:32,124]DEBUG:registered 'hex_md5' handler: <class 'passlib.handlers.digests.hex_md5'>
+[2021-12-10 06:45:58,610]DEBUG:registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2021-12-10 06:45:58,612]DEBUG:registered 'des_crypt' handler: <class 'passlib.handlers.des_crypt.des_crypt'>
+[2021-12-10 06:45:58,613]DEBUG:registered 'pbkdf2_sha256' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha256'>
+[2021-12-10 06:45:58,613]DEBUG:registered 'pbkdf2_sha512' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha512'>
+[2021-12-10 06:45:58,613]DEBUG:registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+[2021-12-10 06:45:58,613]DEBUG:registered 'sha512_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha512_crypt'>
+[2021-12-10 06:45:58,614]DEBUG:registered 'plaintext' handler: <class 'passlib.handlers.misc.plaintext'>
+[2021-12-10 06:45:58,615]DEBUG:registered 'hex_md5' handler: <class 'passlib.handlers.digests.hex_md5'>
+[2021-12-10 06:46:04,566]DEBUG:registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2021-12-10 06:46:04,568]DEBUG:registered 'des_crypt' handler: <class 'passlib.handlers.des_crypt.des_crypt'>
+[2021-12-10 06:46:04,568]DEBUG:registered 'pbkdf2_sha256' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha256'>
+[2021-12-10 06:46:04,568]DEBUG:registered 'pbkdf2_sha512' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha512'>
+[2021-12-10 06:46:04,569]DEBUG:registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+[2021-12-10 06:46:04,569]DEBUG:registered 'sha512_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha512_crypt'>
+[2021-12-10 06:46:04,569]DEBUG:registered 'plaintext' handler: <class 'passlib.handlers.misc.plaintext'>
+[2021-12-10 06:46:04,570]DEBUG:registered 'hex_md5' handler: <class 'passlib.handlers.digests.hex_md5'>
+[2021-12-10 06:46:09,304]DEBUG:registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2021-12-10 06:46:09,306]DEBUG:registered 'des_crypt' handler: <class 'passlib.handlers.des_crypt.des_crypt'>
+[2021-12-10 06:46:09,307]DEBUG:registered 'pbkdf2_sha256' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha256'>
+[2021-12-10 06:46:09,307]DEBUG:registered 'pbkdf2_sha512' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha512'>
+[2021-12-10 06:46:09,307]DEBUG:registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+[2021-12-10 06:46:09,307]DEBUG:registered 'sha512_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha512_crypt'>
+[2021-12-10 06:46:09,308]DEBUG:registered 'plaintext' handler: <class 'passlib.handlers.misc.plaintext'>
+[2021-12-10 06:46:09,309]DEBUG:registered 'hex_md5' handler: <class 'passlib.handlers.digests.hex_md5'>
+[2021-12-10 06:46:13,162]DEBUG:registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2021-12-10 06:46:13,165]DEBUG:registered 'des_crypt' handler: <class 'passlib.handlers.des_crypt.des_crypt'>
+[2021-12-10 06:46:13,165]DEBUG:registered 'pbkdf2_sha256' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha256'>
+[2021-12-10 06:46:13,165]DEBUG:registered 'pbkdf2_sha512' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha512'>
+[2021-12-10 06:46:13,166]DEBUG:registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+[2021-12-10 06:46:13,166]DEBUG:registered 'sha512_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha512_crypt'>
+[2021-12-10 06:46:13,166]DEBUG:registered 'plaintext' handler: <class 'passlib.handlers.misc.plaintext'>
+[2021-12-10 06:46:13,167]DEBUG:registered 'hex_md5' handler: <class 'passlib.handlers.digests.hex_md5'>
+[2021-12-10 06:46:23,020]DEBUG:registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2021-12-10 06:46:23,023]DEBUG:registered 'des_crypt' handler: <class 'passlib.handlers.des_crypt.des_crypt'>
+[2021-12-10 06:46:23,023]DEBUG:registered 'pbkdf2_sha256' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha256'>
+[2021-12-10 06:46:23,023]DEBUG:registered 'pbkdf2_sha512' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha512'>
+[2021-12-10 06:46:23,024]DEBUG:registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+[2021-12-10 06:46:23,024]DEBUG:registered 'sha512_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha512_crypt'>
+[2021-12-10 06:46:23,024]DEBUG:registered 'plaintext' handler: <class 'passlib.handlers.misc.plaintext'>
+[2021-12-10 06:46:23,025]DEBUG:registered 'hex_md5' handler: <class 'passlib.handlers.digests.hex_md5'>
+[2021-12-10 06:46:39,170]DEBUG:registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2021-12-10 06:46:39,173]DEBUG:registered 'des_crypt' handler: <class 'passlib.handlers.des_crypt.des_crypt'>
+[2021-12-10 06:46:39,173]DEBUG:registered 'pbkdf2_sha256' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha256'>
+[2021-12-10 06:46:39,173]DEBUG:registered 'pbkdf2_sha512' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha512'>
+[2021-12-10 06:46:39,173]DEBUG:registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+[2021-12-10 06:46:39,173]DEBUG:registered 'sha512_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha512_crypt'>
+[2021-12-10 06:46:39,174]DEBUG:registered 'plaintext' handler: <class 'passlib.handlers.misc.plaintext'>
+[2021-12-10 06:46:39,175]DEBUG:registered 'hex_md5' handler: <class 'passlib.handlers.digests.hex_md5'>
+[2021-12-10 06:46:47,571]DEBUG:registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2021-12-10 06:46:47,573]DEBUG:registered 'des_crypt' handler: <class 'passlib.handlers.des_crypt.des_crypt'>
+[2021-12-10 06:46:47,574]DEBUG:registered 'pbkdf2_sha256' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha256'>
+[2021-12-10 06:46:47,574]DEBUG:registered 'pbkdf2_sha512' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha512'>
+[2021-12-10 06:46:47,574]DEBUG:registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+[2021-12-10 06:46:47,574]DEBUG:registered 'sha512_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha512_crypt'>
+[2021-12-10 06:46:47,575]DEBUG:registered 'plaintext' handler: <class 'passlib.handlers.misc.plaintext'>
+[2021-12-10 06:46:47,576]DEBUG:registered 'hex_md5' handler: <class 'passlib.handlers.digests.hex_md5'>
+[2021-12-10 06:47:03,250]DEBUG:registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2021-12-10 06:47:03,253]DEBUG:registered 'des_crypt' handler: <class 'passlib.handlers.des_crypt.des_crypt'>
+[2021-12-10 06:47:03,253]DEBUG:registered 'pbkdf2_sha256' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha256'>
+[2021-12-10 06:47:03,253]DEBUG:registered 'pbkdf2_sha512' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha512'>
+[2021-12-10 06:47:03,253]DEBUG:registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+[2021-12-10 06:47:03,253]DEBUG:registered 'sha512_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha512_crypt'>
+[2021-12-10 06:47:03,254]DEBUG:registered 'plaintext' handler: <class 'passlib.handlers.misc.plaintext'>
+[2021-12-10 06:47:03,255]DEBUG:registered 'hex_md5' handler: <class 'passlib.handlers.digests.hex_md5'>
+[2021-12-10 06:47:07,352]DEBUG:registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2021-12-10 06:47:07,354]DEBUG:registered 'des_crypt' handler: <class 'passlib.handlers.des_crypt.des_crypt'>
+[2021-12-10 06:47:07,354]DEBUG:registered 'pbkdf2_sha256' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha256'>
+[2021-12-10 06:47:07,355]DEBUG:registered 'pbkdf2_sha512' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha512'>
+[2021-12-10 06:47:07,355]DEBUG:registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+[2021-12-10 06:47:07,355]DEBUG:registered 'sha512_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha512_crypt'>
+[2021-12-10 06:47:07,355]DEBUG:registered 'plaintext' handler: <class 'passlib.handlers.misc.plaintext'>
+[2021-12-10 06:47:07,356]DEBUG:registered 'hex_md5' handler: <class 'passlib.handlers.digests.hex_md5'>
+[2021-12-10 06:58:13,921]DEBUG:registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2021-12-10 06:58:13,924]DEBUG:registered 'des_crypt' handler: <class 'passlib.handlers.des_crypt.des_crypt'>
+[2021-12-10 06:58:13,924]DEBUG:registered 'pbkdf2_sha256' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha256'>
+[2021-12-10 06:58:13,924]DEBUG:registered 'pbkdf2_sha512' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha512'>
+[2021-12-10 06:58:13,925]DEBUG:registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+[2021-12-10 06:58:13,925]DEBUG:registered 'sha512_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha512_crypt'>
+[2021-12-10 06:58:13,925]DEBUG:registered 'plaintext' handler: <class 'passlib.handlers.misc.plaintext'>
+[2021-12-10 06:58:13,926]DEBUG:registered 'hex_md5' handler: <class 'passlib.handlers.digests.hex_md5'>
+[2021-12-10 06:59:44,043]DEBUG:registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2021-12-10 06:59:44,045]DEBUG:registered 'des_crypt' handler: <class 'passlib.handlers.des_crypt.des_crypt'>
+[2021-12-10 06:59:44,045]DEBUG:registered 'pbkdf2_sha256' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha256'>
+[2021-12-10 06:59:44,045]DEBUG:registered 'pbkdf2_sha512' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha512'>
+[2021-12-10 06:59:44,046]DEBUG:registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+[2021-12-10 06:59:44,046]DEBUG:registered 'sha512_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha512_crypt'>
+[2021-12-10 06:59:44,046]DEBUG:registered 'plaintext' handler: <class 'passlib.handlers.misc.plaintext'>
+[2021-12-10 06:59:44,047]DEBUG:registered 'hex_md5' handler: <class 'passlib.handlers.digests.hex_md5'>
+[2021-12-10 07:08:04,250]DEBUG:registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2021-12-10 07:08:04,252]DEBUG:registered 'des_crypt' handler: <class 'passlib.handlers.des_crypt.des_crypt'>
+[2021-12-10 07:08:04,253]DEBUG:registered 'pbkdf2_sha256' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha256'>
+[2021-12-10 07:08:04,253]DEBUG:registered 'pbkdf2_sha512' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha512'>
+[2021-12-10 07:08:04,253]DEBUG:registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+[2021-12-10 07:08:04,253]DEBUG:registered 'sha512_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha512_crypt'>
+[2021-12-10 07:08:04,253]DEBUG:registered 'plaintext' handler: <class 'passlib.handlers.misc.plaintext'>
+[2021-12-10 07:08:04,254]DEBUG:registered 'hex_md5' handler: <class 'passlib.handlers.digests.hex_md5'>
+[2021-12-10 07:08:04,268]INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2021-12-10 07:08:04,269]INFO: * Restarting with stat
+[2021-12-10 07:08:04,762]DEBUG:registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2021-12-10 07:08:04,765]DEBUG:registered 'des_crypt' handler: <class 'passlib.handlers.des_crypt.des_crypt'>
+[2021-12-10 07:08:04,766]DEBUG:registered 'pbkdf2_sha256' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha256'>
+[2021-12-10 07:08:04,766]DEBUG:registered 'pbkdf2_sha512' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha512'>
+[2021-12-10 07:08:04,767]DEBUG:registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+[2021-12-10 07:08:04,767]DEBUG:registered 'sha512_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha512_crypt'>
+[2021-12-10 07:08:04,767]DEBUG:registered 'plaintext' handler: <class 'passlib.handlers.misc.plaintext'>
+[2021-12-10 07:08:04,769]DEBUG:registered 'hex_md5' handler: <class 'passlib.handlers.digests.hex_md5'>
+[2021-12-10 07:08:09,574]INFO:127.0.0.1 - - [10/Dec/2021 07:08:09] "[32mGET / HTTP/1.1[0m" 302 -
+[2021-12-10 07:08:09,675]INFO:127.0.0.1 - - [10/Dec/2021 07:08:09] "GET /login?next=%2F HTTP/1.1" 200 -
+[2021-12-10 07:08:45,907]INFO:127.0.0.1 - - [10/Dec/2021 07:08:45] "POST /login HTTP/1.1" 200 -
+[2021-12-10 07:09:56,011]INFO:127.0.0.1 - - [10/Dec/2021 07:09:56] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+[2021-12-10 07:09:56,068]INFO:127.0.0.1 - - [10/Dec/2021 07:09:56] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2021-12-10 07:09:56,077]INFO:127.0.0.1 - - [10/Dec/2021 07:09:56] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2021-12-10 07:09:56,151]INFO:127.0.0.1 - - [10/Dec/2021 07:09:56] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2021-12-10 07:09:56,169]INFO:127.0.0.1 - - [10/Dec/2021 07:09:56] "GET /login?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[2021-12-10 07:09:56,189]INFO:127.0.0.1 - - [10/Dec/2021 07:09:56] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2021-12-10 07:12:07,769]INFO: * Detected change in '/home/mfakeih/comp2011/cw2/config.py', reloading
+[2021-12-10 07:12:07,876]INFO: * Restarting with stat
+[2021-12-10 07:12:08,693]DEBUG:registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2021-12-10 07:12:08,697]DEBUG:registered 'des_crypt' handler: <class 'passlib.handlers.des_crypt.des_crypt'>
+[2021-12-10 07:12:08,697]DEBUG:registered 'pbkdf2_sha256' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha256'>
+[2021-12-10 07:12:08,697]DEBUG:registered 'pbkdf2_sha512' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha512'>
+[2021-12-10 07:12:08,697]DEBUG:registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+[2021-12-10 07:12:08,697]DEBUG:registered 'sha512_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha512_crypt'>
+[2021-12-10 07:12:08,698]DEBUG:registered 'plaintext' handler: <class 'passlib.handlers.misc.plaintext'>
+[2021-12-10 07:12:08,699]DEBUG:registered 'hex_md5' handler: <class 'passlib.handlers.digests.hex_md5'>
+[2021-12-10 07:12:28,821]DEBUG:registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2021-12-10 07:12:28,824]DEBUG:registered 'des_crypt' handler: <class 'passlib.handlers.des_crypt.des_crypt'>
+[2021-12-10 07:12:28,824]DEBUG:registered 'pbkdf2_sha256' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha256'>
+[2021-12-10 07:12:28,824]DEBUG:registered 'pbkdf2_sha512' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha512'>
+[2021-12-10 07:12:28,825]DEBUG:registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+[2021-12-10 07:12:28,825]DEBUG:registered 'sha512_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha512_crypt'>
+[2021-12-10 07:12:28,825]DEBUG:registered 'plaintext' handler: <class 'passlib.handlers.misc.plaintext'>
+[2021-12-10 07:12:28,826]DEBUG:registered 'hex_md5' handler: <class 'passlib.handlers.digests.hex_md5'>
+[2021-12-10 07:12:28,839]INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2021-12-10 07:12:28,840]INFO: * Restarting with stat
+[2021-12-10 07:12:29,375]DEBUG:registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2021-12-10 07:12:29,377]DEBUG:registered 'des_crypt' handler: <class 'passlib.handlers.des_crypt.des_crypt'>
+[2021-12-10 07:12:29,377]DEBUG:registered 'pbkdf2_sha256' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha256'>
+[2021-12-10 07:12:29,377]DEBUG:registered 'pbkdf2_sha512' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha512'>
+[2021-12-10 07:12:29,378]DEBUG:registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+[2021-12-10 07:12:29,378]DEBUG:registered 'sha512_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha512_crypt'>
+[2021-12-10 07:12:29,378]DEBUG:registered 'plaintext' handler: <class 'passlib.handlers.misc.plaintext'>
+[2021-12-10 07:12:29,379]DEBUG:registered 'hex_md5' handler: <class 'passlib.handlers.digests.hex_md5'>
+[2021-12-10 07:12:36,046]INFO:127.0.0.1 - - [10/Dec/2021 07:12:36] "[35m[1mGET / HTTP/1.1[0m" 500 -
+[2021-12-10 07:12:36,154]INFO:127.0.0.1 - - [10/Dec/2021 07:12:36] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2021-12-10 07:12:36,165]INFO:127.0.0.1 - - [10/Dec/2021 07:12:36] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2021-12-10 07:12:36,215]INFO:127.0.0.1 - - [10/Dec/2021 07:12:36] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2021-12-10 07:12:36,222]INFO:127.0.0.1 - - [10/Dec/2021 07:12:36] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[2021-12-10 07:12:36,243]INFO:127.0.0.1 - - [10/Dec/2021 07:12:36] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2021-12-10 07:13:50,161]DEBUG:registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2021-12-10 07:13:50,164]DEBUG:registered 'des_crypt' handler: <class 'passlib.handlers.des_crypt.des_crypt'>
+[2021-12-10 07:13:50,164]DEBUG:registered 'pbkdf2_sha256' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha256'>
+[2021-12-10 07:13:50,164]DEBUG:registered 'pbkdf2_sha512' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha512'>
+[2021-12-10 07:13:50,165]DEBUG:registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+[2021-12-10 07:13:50,165]DEBUG:registered 'sha512_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha512_crypt'>
+[2021-12-10 07:13:50,165]DEBUG:registered 'plaintext' handler: <class 'passlib.handlers.misc.plaintext'>
+[2021-12-10 07:13:50,166]DEBUG:registered 'hex_md5' handler: <class 'passlib.handlers.digests.hex_md5'>
+[2021-12-10 07:16:09,497]DEBUG:registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2021-12-10 07:16:09,499]DEBUG:registered 'des_crypt' handler: <class 'passlib.handlers.des_crypt.des_crypt'>
+[2021-12-10 07:16:09,499]DEBUG:registered 'pbkdf2_sha256' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha256'>
+[2021-12-10 07:16:09,500]DEBUG:registered 'pbkdf2_sha512' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha512'>
+[2021-12-10 07:16:09,500]DEBUG:registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+[2021-12-10 07:16:09,500]DEBUG:registered 'sha512_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha512_crypt'>
+[2021-12-10 07:16:09,500]DEBUG:registered 'plaintext' handler: <class 'passlib.handlers.misc.plaintext'>
+[2021-12-10 07:16:09,501]DEBUG:registered 'hex_md5' handler: <class 'passlib.handlers.digests.hex_md5'>
+[2021-12-10 07:16:09,515]INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2021-12-10 07:16:09,515]INFO: * Restarting with stat
+[2021-12-10 07:16:10,048]DEBUG:registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2021-12-10 07:16:10,050]DEBUG:registered 'des_crypt' handler: <class 'passlib.handlers.des_crypt.des_crypt'>
+[2021-12-10 07:16:10,050]DEBUG:registered 'pbkdf2_sha256' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha256'>
+[2021-12-10 07:16:10,050]DEBUG:registered 'pbkdf2_sha512' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha512'>
+[2021-12-10 07:16:10,051]DEBUG:registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+[2021-12-10 07:16:10,051]DEBUG:registered 'sha512_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha512_crypt'>
+[2021-12-10 07:16:10,051]DEBUG:registered 'plaintext' handler: <class 'passlib.handlers.misc.plaintext'>
+[2021-12-10 07:16:10,052]DEBUG:registered 'hex_md5' handler: <class 'passlib.handlers.digests.hex_md5'>
+[2021-12-10 07:16:13,880]INFO:127.0.0.1 - - [10/Dec/2021 07:16:13] "[32mGET / HTTP/1.1[0m" 302 -
+[2021-12-10 07:16:13,973]INFO:127.0.0.1 - - [10/Dec/2021 07:16:13] "GET /login?next=%2F HTTP/1.1" 200 -
+[2021-12-10 07:16:27,270]DEBUG:trapped unexpected response from 'os_crypt' backend: verify('test', b'$2$04$5BJqKfqMQvV7nS.yUguNcuRfMMOXK0xPWavM7pOzjEi5ze5T1k8/S'):
+Traceback (most recent call last):
+  File "/home/mfakeih/comp2011/flask/lib/python3.8/site-packages/passlib/handlers/bcrypt.py", line 303, in safe_verify
+    return verify(secret, hash)
+  File "/home/mfakeih/comp2011/flask/lib/python3.8/site-packages/passlib/utils/handlers.py", line 792, in verify
+    return consteq(self._calc_checksum(secret), chk)
+  File "/home/mfakeih/comp2011/flask/lib/python3.8/site-packages/passlib/handlers/bcrypt.py", line 837, in _calc_checksum
+    raise uh.exc.InternalBackendError(
+passlib.exc.InternalBackendError: crypt.crypt() failed for unknown reason; passlib recommends running `pip install bcrypt` for general bcrypt support.(config=<hash <class 'str'> value omitted>, secret=<hash <class 'bytes'> value omitted>)
+[2021-12-10 07:16:27,276]DEBUG:'os_crypt' backend lacks $2$ support, enabling workaround
+[2021-12-10 07:16:27,650]INFO:127.0.0.1 - - [10/Dec/2021 07:16:27] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2021-12-10 07:16:27,748]INFO:127.0.0.1 - - [10/Dec/2021 07:16:27] "GET / HTTP/1.1" 200 -
+[2021-12-10 07:16:27,874]INFO:127.0.0.1 - - [10/Dec/2021 07:16:27] "GET /static/fontawesome-free-5.15.4-web/css/all.css HTTP/1.1" 200 -
+[2021-12-10 07:16:27,874]INFO:127.0.0.1 - - [10/Dec/2021 07:16:27] "GET /static/jquery.min.js HTTP/1.1" 200 -
