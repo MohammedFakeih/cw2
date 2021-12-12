@@ -1,7 +1,10 @@
-import os
+import secrets, os
 
 WTF_CSRF_ENABLED = True
-SECRET_KEY = os.urandom(32)
+SECRET_KEY = secrets.token_hex()
+SECURITY_PASSWORD_SALT = secrets.token_hex()
+SECURITY_REGISTERABLE = True
+SECURITY_SEND_REGISTER_EMAIL = False
 
 #if deployed keep session_cookie_secure as True
 SESSION_COOKIE_SECURE = True

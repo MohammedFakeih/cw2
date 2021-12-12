@@ -1,0 +1,11 @@
+i.rated {
+  color: orange;
+}
+
+i.unrated {
+  color: darkgrey;
+}
+
+i.canrate {
+  color: cornflowerblue;
+}

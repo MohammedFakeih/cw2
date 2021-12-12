@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="col-3">
+</div>
+<div class="col-6">
+  <br />
+  <h1>Login to your account</h1>
+  <br />
+  <form method="post" name="login">
+    {{ login_user_form.hidden_tag() }}
+    {{ login_user_form.email.label(class_='form-label') }}
+    {{ login_user_form.email(class_='form-control') }}<br>
+    <p>
+       {% for error in login_user_form.email.errors %}
+        <span style="color: red;">{{ error }}</span>
+       {% endfor %}
+    </p>
+    {{ login_user_form.password.label(class_='form-label') }}
+    {{ login_user_form.password(class_='form-control') }}<br>
+    <p>
+       {% for error in login_user_form.password.errors %}
+        <span style="color: red;">{{ error }}</span>
+       {% endfor %}
+    </p>
+    <p><input type="submit" class="btn btn-primary" value="Submit"></p>
+    <p>Don't have an account? Register <a href="/register">here</a></p>
+</div>
+<div class="col-3">
+</div>
+{% endblock %}

@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block content %}
+{% if reviews.keys() %}
+  <h2>Reviews</h2>
+  <hr>
+  {% for review, title in reviews.items() %}
+    {{ title }}
+    {% for i in range(review.userRating) %}
+      <i class="fas fa-star rated" id='{{ i + 1 }}'></i>
+    {% endfor %}
+    {% for i in range(review.userRating, 10) %}
+      <i class="fas fa-star unrated" id='{{ review.userRating + i + 1 }}'></i>
+    {% endfor %}
+    <span id="urating">{{ review.userRating }}</span>
+    <br />
+    <br />
+    {{ review.review }}
+    <hr />
+  {% endfor %}
+{% else %}
+  <h1>You have not written any reviews yet</h1>
+{% endif %}
+{% endblock %}
